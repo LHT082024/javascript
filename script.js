@@ -4,17 +4,16 @@ console.log  ('hello');
 
 //hilsen funksjonen
 function greeting (){
-     console.log ("dette er en greeting");
+     console.log ("car driving");
 
-     const firstName = "Lucia";
-     const greet = "Mornings";
+     const firstName = "*splat*";
+     const greet = "Truck-kunnn";
 
-     console.log( greet + " " + firstName)
      console.log(`${greet}, ${firstName}!`)
 }
 
 
-greeting();
+//greeting();
 
 
 //DOMM (Document Object Model manipulation)
@@ -22,3 +21,6 @@ greeting();
 //lagringsplass = lagringsinnhold
 const isekaiButton = document.querySelector("#isekaiButton");
 console.log(isekaiButton);
+
+
+isekaiButton.addEventListener("click", greeting)
