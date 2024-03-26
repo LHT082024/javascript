@@ -1,7 +1,25 @@
+.boring{
+    background-color: white;
+    color: black;
+}
+
+.cool{
+    background-color: black;
+    color: white;
+}
+
+body{
+    margin: 0%;
+}
+
 main{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
 
+button{
+    display: flex;
+    margin-top: 20px;
 }
